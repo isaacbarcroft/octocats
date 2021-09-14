@@ -1,5 +1,8 @@
 .authors {
-    display: none;
+    
+    width: .5em;
+    height: .5em;
+    // display: none;
 }
 
 .octocat {
@@ -32,6 +35,7 @@ ul img {
 }
 
 .image-caption {
+    float: none;
    position: absolute;
    width: 200px;
    bottom: -10x;
@@ -51,6 +55,7 @@ span {
    
 }
 .image-number{
+    float: left;
     opacity: 0.5;
 }
 .image-number:before {
@@ -62,4 +67,9 @@ span {
     position: relative;
     display: inline-block;
     width: 200px;
+}
+
+.authors img {
+    width: 1em;
+    height: 1em;
 }
