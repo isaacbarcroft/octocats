@@ -1,0 +1,62 @@
+.authors {
+  display: none;
+}
+
+.octocat {
+  display: inline-block;
+  width: 200px;
+  height: 180px;
+  border: gray;
+  border-radius: 3px;
+  border: 1px solid gray;
+  margin-bottom: 100px;
+  margin-right: 10px;
+}
+
+.octodex {
+  position: relative;
+}
+
+ul img {
+  display: inline-block;
+  width: 10rem;
+  height: 10rem;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.image-caption {
+  position: absolute;
+  width: 200px;
+  bottom: -10x;
+  right: 20px;
+  text-decoration: underline solid gray;
+  text-align: right;
+}
+
+div a {
+  font-weight: bold;
+  color: black;
+}
+
+span {
+  font-weight: bold;
+  color: gray;
+}
+
+.image-number {
+  opacity: 0.5;
+}
+
+.image-number:before {
+  content: "#";
+}
+
+.image-footer {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+}
+
+/*# sourceMappingURL=styles.css.map */
